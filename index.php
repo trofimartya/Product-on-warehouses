@@ -12,15 +12,15 @@ if (isset($_POST['Submit'])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Залишки продуктів на складі</title>
+	<title>Product quantity</title>
 	<!-- CSS форма таблицы -->
 	<link rel="stylesheet" href="external.css">
 </head>
 <body>
-	<h1 align="center">Залишки продуктів</h1>
+	<h1 align="center">Product quantity</h1>
 		<!-- В форму загружаем файл со скриптом-->	
 		<form align="center" action="load.php"  method="post" enctype="multipart/form-data">
-		Завантажте файл
+		Upload file
 		<input type="file" name="csv" value="" id="csv_file" accept=".csv"/>
 		<input type="submit" value="Submit" name="submit" id="upload"/>
 		</form>
